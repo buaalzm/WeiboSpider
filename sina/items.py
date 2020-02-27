@@ -47,6 +47,8 @@ class RelationshipsItem(Item):
     fan_id = Field()  # 关注者,即粉丝的id
     followed_id = Field()  # 被关注者的id
     crawl_time = Field()  # 抓取时间戳
+    fan_name = Field()
+    followed_name = Field()
 
 
 class CommentItem(Item):
